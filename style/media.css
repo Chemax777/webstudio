@@ -1,0 +1,444 @@
+@media screen and (min-width: 1600px) {
+
+    header,
+    main,
+    footer {
+        width: 160rem;
+        margin: 0 auto;
+    }
+
+    /* Портфоліо */
+    .card__text-hover-port {
+        padding: 7.3rem 6rem;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .footer__container {
+        width: 85%;
+        padding: 0;
+        padding-top: 6rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footer__contacts,
+    .footer__social-links {
+        width: 25%;
+        text-align: center;
+    }
+
+    .footer__social-links {
+        margin: 3rem;
+    }
+
+    .footer__mail {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mail__header {
+        margin-top: 6rem;
+    }
+
+    .mail__form {
+        width: 100%;
+        padding-bottom: 6rem;
+    }
+
+    .mail__form form {
+        flex-direction: column;
+    }
+
+    .form__input>input {
+        width: 80%;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header__banner {
+        background: url(../img/hero992.jpg);
+        height: 56vh;
+        background-repeat: no-repeat;
+    }
+
+    .header__banner h1 {
+        width: 70%;
+        font-size: 2.6rem;
+        line-height: 4.2rem;
+        margin-bottom: 4rem;
+    }
+
+    .features {
+        width: 85%;
+        margin: 6rem auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .features__card {
+        width: 47%;
+        margin-bottom: 3rem;
+    }
+
+    .our-projects {
+        display: none;
+    }
+
+    .team {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        margin-bottom: 6rem;
+    }
+
+    .team__container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .team__card {
+        width: 47%;
+        margin-bottom: 3rem;
+    }
+
+    .clients {
+        margin-bottom: 6rem;
+    }
+
+    .clients__container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .clients__card {
+        width: 31%;
+        margin-bottom: 3rem;
+    }
+
+    .footer__container {
+        width: 85%;
+        padding: 0;
+        padding-top: 6rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footer__contacts,
+    .footer__social-links {
+        width: 30%;
+        text-align: center;
+    }
+
+    .footer__social-links {
+        margin: 3rem;
+    }
+
+    .footer__mail {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mail__header {
+        margin-top: 6rem;
+    }
+
+    .mail__form {
+        width: 100%;
+        padding-bottom: 6rem;
+    }
+
+    .mail__form form {
+        flex-direction: column;
+    }
+
+    .form__input>input {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    /* Портфоліо */
+    .portfolio__cads {
+        justify-content: space-between;
+    }
+
+    .port__card {
+        width: 48%;
+    }
+
+    .card__text-hover-port {
+        padding: 6.3rem 4rem;
+        height: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__banner {
+        background: url(../img/hero-tablet.jpg);
+        height: 60vh;
+        background-repeat: no-repeat;
+    }
+
+    .header__banner h1 {
+        width: 70%;
+        font-size: 2.6rem;
+        line-height: 4.2rem;
+        margin-bottom: 4rem;
+    }
+
+    .features {
+        width: 85%;
+        margin: 6rem auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .features__card {
+        width: 47%;
+        margin-bottom: 3rem;
+    }
+
+    .our-projects {
+        display: none;
+    }
+
+    .team {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        margin-bottom: 6rem;
+    }
+
+    .team__container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .team__card {
+        width: 47%;
+        margin-bottom: 3rem;
+    }
+
+    .clients {
+        margin-bottom: 6rem;
+    }
+
+    .clients__container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .clients__card {
+        width: 31%;
+        margin-bottom: 3rem;
+    }
+
+    .footer__container {
+        width: 85%;
+        padding: 0;
+        padding-top: 6rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footer__contacts,
+    .footer__social-links {
+        width: 40%;
+        text-align: center;
+    }
+
+    .footer__social-links {
+        margin: 3rem;
+    }
+
+    .footer__mail {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mail__header {
+        margin-top: 2rem;
+    }
+
+    .mail__form {
+        width: 100%;
+        padding-bottom: 4rem;
+    }
+
+    .mail__form form {
+        flex-direction: column;
+    }
+
+    .form__input>input {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    /* Портфоліо */
+    .portfolio__nav-menu ul {
+        flex-wrap: wrap;
+    }
+    .portfolio__nav-menu ul>li{
+        margin-bottom: 2rem;
+    }
+
+    .portfolio__cads {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .port__card {
+        width: 48%;
+    }
+
+    .card__text-hover-port {
+        padding: 1.7rem 2rem;
+        height: 67%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header__banner {
+        height: 60vh;
+        background: url(../img/hero-mobile.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .header__banner h1 {
+        width: 100%;
+        font-size: 2rem;
+        line-height: 4.2rem;
+        margin-bottom: 3rem;
+    }
+
+    .features {
+        width: 85%;
+        margin: 6rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .features__card {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .features__card h4 {
+        text-align: center;
+    }
+
+    .our-projects {
+        display: none;
+    }
+
+    .team {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        margin-bottom: 6rem;
+    }
+
+    .team__container {
+        flex-direction: column;
+    }
+
+    .team__card {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .clients {
+        margin-bottom: 6rem;
+    }
+
+    .clients__container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .clients__card {
+        width: 45%;
+        margin-bottom: 3rem;
+    }
+
+    .footer__container {
+        width: 85%;
+        padding: 0;
+        padding-top: 6rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__contacts,
+    .footer__social-links {
+        width: 60%;
+        text-align: center;
+    }
+
+    .footer__social-links {
+        margin: 3rem;
+    }
+
+    .footer__mail {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mail__form {
+        width: 100%;
+        padding-bottom: 6rem;
+    }
+
+    .mail__form form {
+        flex-direction: column;
+    }
+
+    .form__input>input {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    /* Портфоліо */
+    .portfolio__nav-menu ul {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: 6rem;
+        margin-left: 1.5rem;
+        margin-bottom: 4rem;
+        gap: .8rem;
+    }
+
+    .portfolio__nav-menu ul li {
+        margin-bottom: 1.5rem
+    }
+
+    .portfolio__cads {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .port__card {
+        width: 90%;
+    }
+
+    .card__text-hover-port {
+        padding: 3rem 2rem;
+        height: 70%;
+    }
+}

@@ -64,8 +64,10 @@
 @media screen and (max-width: 992px) {
     .header__banner {
         background: url(../img/hero992.jpg);
-        height: 56vh;
+        height: 65vh;
         background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
     .header__banner h1 {
@@ -187,6 +189,8 @@
         background: url(../img/hero-tablet.jpg);
         height: 60vh;
         background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
     .header__banner h1 {
@@ -292,7 +296,8 @@
     .portfolio__nav-menu ul {
         flex-wrap: wrap;
     }
-    .portfolio__nav-menu ul>li{
+
+    .portfolio__nav-menu ul>li {
         margin-bottom: 2rem;
     }
 
@@ -312,10 +317,15 @@
 }
 
 @media screen and (max-width: 480px) {
+    .nav-menu__logo {
+        padding-left: 2.5rem;
+    }
+
     .header__banner {
         height: 60vh;
         background: url(../img/hero-mobile.jpg);
         background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .header__banner h1 {

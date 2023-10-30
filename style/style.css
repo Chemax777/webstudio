@@ -139,6 +139,42 @@ p {
     line-height: 3rem;
 }
 
+#modal-btn {
+    font-size: 1.5rem;
+}
+
+.m-title {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.9rem;
+    text-align: center;
+}
+
+.form-modal {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-modal div label {
+    width: 25%;
+    margin-bottom: 5px;
+}
+
+.form-modal div input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.modal-btn {
+    font-size: 1.5rem;
+}
 .features {
     width: 85%;
     margin: 9rem auto;

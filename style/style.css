@@ -581,16 +581,18 @@ p {
 }
 
 .portfolio__cads {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 325px);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
     margin-bottom: 7rem;
 }
 
 .port__card {
-    width: 31%;
     box-sizing: border-box;
     border: 1px solid #EEEEEE;
     margin-bottom: 3rem;

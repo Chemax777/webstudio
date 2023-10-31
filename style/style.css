@@ -663,6 +663,7 @@ p {
     height: 200px;
     width: 80%;
     margin: 20px auto;
+    padding: 5px;
     border: 1px solid #000000;
     font-size: 3rem;
     display: flex;
